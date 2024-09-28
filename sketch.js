@@ -20,10 +20,11 @@
 
 function setup() {
   createCanvas(windowWidth, windowHeight);
-  FrameRate(20);
+  frameRate(10);
   background(0);
-  circleMode(CENTER);
+  circle(50, 50, 25);
 }
+
 function draw() {
-  background(random(100, 100), random(0, 100), 80, 50);
+  background(random(150, 250), random(0, 100), 90, 50);
 }
