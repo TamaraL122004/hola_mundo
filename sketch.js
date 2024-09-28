@@ -23,7 +23,25 @@ function setup() {
 }
 
 function draw() {
-  background(100, 0, 50);
+  // background(100, 0, 50);
+  background(random(0, 50), random(10, 5), 20, 40);
+
+  // // puntos
+  // strokeWeight(0);
+  // fill(mouseY, 110, 30);
+  // ellipse(mouseX - 75, mouseY + 10, 20, 20);
+
+  // strokeWeight(0);
+  // fill(mouseY, 40, 0);
+  // ellipse(mouseX + 75, mouseY + 10, 20, 20);
+
+  // strokeWeight(0);
+  // fill(mouseY, 40, 55);
+  // ellipse(mouseX + 10, mouseY + 75, 20, 20);
+
+  // strokeWeight(0);
+  // fill(mouseY, 40, 113);
+  // ellipse(mouseX + 10, mouseY - 75, 20, 20);
 
   // hojas
   strokeWeight(0);
@@ -55,7 +73,7 @@ function draw() {
   fill(150, 230, 20);
   ellipse(mouseX + 10, mouseY - 20, 60, 60);
 
-  // centro
+  // Centro
   strokeWeight(2);
   stroke(250, 100, 0);
   fill(250, 160, 0);
